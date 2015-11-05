@@ -29,4 +29,8 @@
     <!-- Set the notificaiton pulse to be off by default. -->
     <bool name="def_notification_pulse">false</bool>
 
+    <!-- BackUp -->
+    <bool name="def_backup_enabled">true</bool>
+    <string name="def_backup_transport">com.google.android.gms/.backup.BackupTransportService</string>
+
 </resources>
