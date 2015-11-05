@@ -440,6 +440,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.est_max_time=600 \
     ro.facelock.use_intro_anim=false
 
+# Sysinit
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/sysinit:system/bin/sysinit
+
 # setup dm-verity configs.
 PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc.0/f9824900.sdhci/by-name/system
 PRODUCT_VENDOR_VERITY_PARTITION := /dev/block/platform/soc.0/f9824900.sdhci/by-name/vendor
