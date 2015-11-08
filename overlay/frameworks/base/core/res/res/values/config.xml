@@ -358,9 +358,6 @@
         <item>SUPL_ES=0</item>
     </string-array>
 
-    <!-- Whether or not we show the number in the bar. -->
-    <bool name="config_statusBarShowNumber">true</bool>
-
     <!-- Location services providers -->
     <string-array name="config_locationProviderPackageNames" translatable="false">
         <!-- The standard AOSP fused location provider -->
