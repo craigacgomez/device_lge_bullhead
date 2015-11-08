@@ -452,7 +452,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/sysinit:system/bin/sysinit
 
 # Filesystem management tools
- PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     e2fsck \
     mke2fs \
     tune2fs \
@@ -464,6 +464,10 @@ PRODUCT_COPY_FILES += \
     fibmap.f2fs \
     ntfsfix \
     ntfs-3g
+
+# STK
+PRODUCT_PACKAGES += \
+    Stk
 
 # Bootanimation
 PRODUCT_COPY_FILES += \
