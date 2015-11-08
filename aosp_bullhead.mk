@@ -29,7 +29,6 @@ PRODUCT_DEVICE := bullhead
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 5X
 PRODUCT_MANUFACTURER := LGE
-PRODUCT_RESTRICT_VENDOR_FILES := false
 
 $(call inherit-product, device/lge/bullhead/device.mk)
 $(call inherit-product-if-exists, vendor/lge/bullhead/device-vendor.mk)
