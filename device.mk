@@ -442,11 +442,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.est_max_time=600 \
     ro.facelock.use_intro_anim=false
 
-# USB config modes
-PRODUCT_PROPERTY_OVERRIDES += \
-    sys.usb.config=mtp,adb \
-    persist.sys.usb.config=mtp,adb
-
 # Sysinit
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/sysinit:system/bin/sysinit
