@@ -419,8 +419,8 @@ endif
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=bullhead \
     BUILD_DISPLAY_ID="Marshmallicious $(BUILD_ID) $(shell date +%Y%m%d)" \
-    BUILD_FINGERPRINT="google/bullhead/bullhead:6.0.1/MMB29K/2419427:user/release-keys" \
-    PRIVATE_BUILD_DESC="bullhead-user 6.0.1 MMB29K 2419427 release-keys"
+    BUILD_FINGERPRINT="google/bullhead/bullhead:6.0.1/MMB29P/2473553:user/release-keys" \
+    PRIVATE_BUILD_DESC="bullhead-user 6.0.1 MMB29P 2473553 release-keys"
 
 # Google properties
 PRODUCT_PROPERTY_OVERRIDES += \
